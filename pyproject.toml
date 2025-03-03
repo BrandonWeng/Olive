@@ -1,3 +1,18 @@
+[project]
+name = "Olive"
+version = "0.0.1"
+requires-python = "==3.12.*"
+dependencies = [
+    "olive-ai>=0.7.1.1",
+    "onnxruntime>=1.20.1",
+    "onnxruntime-extensions>=0.13.0",
+    "neural-compressor",
+    "onnxruntime_extensions>=0.9.0",
+    "tabulate",
+    "torch>=1.13.1",
+    "transformers>=4.23.1,<4.43.0",
+]
+
 [tool.black]
 line-length = 120
 
